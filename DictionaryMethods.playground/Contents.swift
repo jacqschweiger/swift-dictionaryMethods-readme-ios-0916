@@ -91,6 +91,15 @@ if let fast3rFilms = movies["The Fast and the Furious"] {
 
 movies.removeValueForKey("The Fast and the Furious")
 
+movies.removeValueForKey("Star Wars")
+
+
+let franchiseNames = Array(movies.keys)
+
+print("Here are the franchises:")
+    for franchise in movies.keys {
+    print("\(franchise)")
+}
 
 
 // COUNTING ITEMS
